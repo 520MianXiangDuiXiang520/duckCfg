@@ -1,6 +1,8 @@
 # duckCfg
 
-用更简单，更统一的方法读取配置文件
+A simpler and more unified way to read configuration files.
+
+[中文](./README_ZH.md)
 
 ## Usage
 
@@ -28,14 +30,13 @@ func GetIntFormatDefault() {
 
 ```
 
-如果你想从 json 中读取，只需要修改文件名即可
+If you want to read from JSON, you only need to modify the file name.
 
 ## Q&A
 
-> Q: 键中有 . 怎么办？
-> * 使用 \ 转义，如你的键名为 `db.mongo` 可以使用 `db\\.mongo` 来读取 键中包含 \ 同理
+> Q: What if my key contains a dot?
+> * Use a backslash to escape it, e.g., if your key is db.mongo, you can use db\\.mongo to read it. The same applies to keys containing a backslash.
 
-> Q: 没有支持我的配置文件格式
-> * 你可以自定义一个 `FConfigLoader` 并使用 `Register` 函数注册
-
-    
+> Q: My configuration file format is not supported.
+> * You can define a FConfigLoader and use the Register function to register it.
+ 
