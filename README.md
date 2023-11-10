@@ -4,6 +4,9 @@ A simpler and more unified way to read configuration files.
 
 [中文](./README_ZH.md)
 
+[![GoDoc](https://camo.githubusercontent.com/ba58c24fb3ac922ec74e491d3ff57ebac895cf2deada3bf1c9eebda4b25d93da/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f67616d6d617a65726f2f776f726b6572706f6f6c3f7374617475732e737667)](https://pkg.go.dev/github.com/520MianXiangDuiXiang520/duckCfg)
+
+
 ## Usage
 
 ```shell
